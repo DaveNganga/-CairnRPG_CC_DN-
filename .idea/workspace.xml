@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b656362-cf57-4af2-8f94-50dc41715d16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/-CairnRPG_CC_DN-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/-CairnRPG_CC_DN-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ItemTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b656362-cf57-4af2-8f94-50dc41715d16" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
     "last_opened_file_path": "C:/Users/evada/Desktop/DESKTOP/School/Spring 23/Software Engineering/-CairnRPG_CC_DN-"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ItemTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="-CairnRPG_CC_DN-" />
@@ -105,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="JUnit.ItemTest.itemTestSetters" />
         <item itemvalue="JUnit.ItemTest.itemTestGetters1" />
         <item itemvalue="JUnit.ItemTest.itemTest1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
