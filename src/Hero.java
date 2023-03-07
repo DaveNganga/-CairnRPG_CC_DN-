@@ -35,7 +35,7 @@ public class Hero extends Character {
         return i;
     }
     public boolean addToInventory(Item Item){
-        // needs to be immplemented
+        // needs to be implemented
         return true;
     }
     public String showInventory(){

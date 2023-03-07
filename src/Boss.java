@@ -16,7 +16,7 @@ public class Boss extends Enemy{
         return false;
     }
     public String info() {
-        return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive:" + isAlive + "\nUltras left :" + ultrasLeft;
+          return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive:" + isAlive + "\nUltras left :" + ultrasLeft;
     }
 
     public int getUltrasLeft() {

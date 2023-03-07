@@ -21,5 +21,6 @@ public class CharacterTest {
     @Test
     void characterTest4() {
         assertEquals(character.isAlive, (true));
-    }
-}
+    }}
+
+
