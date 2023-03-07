@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/-CairnRPG_CC_DN-/classpath.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/-CairnRPG_CC_DN-/classpath.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
   }
  Updated upstream
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ItemTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="-CairnRPG_CC_DN-" />
@@ -93,9 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ItemTest.itemTest1" />
-        <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="JUnit.ItemTest.itemTestSetters" />
         <item itemvalue="JUnit.ItemTest.itemTestGetters1" />
       </list>
@@ -104,7 +106,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b656362-cf57-4af2-8f94-50dc41715d16" name="Changes" comment="" />
+      <changelist id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="" />
       <created>1678132112241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

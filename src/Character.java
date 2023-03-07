@@ -1,8 +1,8 @@
 public class Character {
-    private String name;
-    private double health;
-    private double attackPower;
-    private boolean isAlive;
+    public String name;
+    public double health;
+    public double attackPower;
+    public boolean isAlive;
 
     Character(){
         name = "Professor Petcaugh";
