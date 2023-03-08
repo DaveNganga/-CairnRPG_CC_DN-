@@ -1,3 +1,4 @@
+import CairnRPG.Item;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -9,7 +10,7 @@ class ItemTest {
 
     @Test
     void itemTest1() {
-        assertEquals(apple.info(), ("Item: Apple\nHealing Power: 2"));
+        assertEquals(apple.info(), ("CairnRPG.Item: Apple\nHealing Power: 2"));
     }
 
     @Test

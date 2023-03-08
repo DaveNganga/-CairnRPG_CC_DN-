@@ -1,3 +1,5 @@
+package CairnRPG;
+
 public class Item {
     private String name;
     private int healingPower;
@@ -32,6 +34,6 @@ public class Item {
 
     //method
     public String info() {
-        return "Item: " + name + "\nHealing Power: " + healingPower;
+        return "CairnRPG.Item: " + name + "\nHealing Power: " + healingPower;
     }
 }

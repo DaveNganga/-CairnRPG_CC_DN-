@@ -1,3 +1,5 @@
+package CairnRPG;
+
 public class Boss extends Enemy{
     private int ultrasLeft;
 
@@ -7,8 +9,8 @@ public class Boss extends Enemy{
         attackPower = 75;
         isAlive = true;
     }
-    Boss(String name, double health, double attackPower, boolean isAlive) {
-        super("Super Boss Man",health,attackPower,isAlive);
+    Boss( double health, double attackPower, boolean isAlive) {
+        super("Big Bad Wolf",health,attackPower,isAlive);
         this.ultrasLeft = 3;
     }
     public boolean fight(Hero Hero){

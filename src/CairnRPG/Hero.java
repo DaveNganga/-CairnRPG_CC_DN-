@@ -1,4 +1,4 @@
-import java.security.PublicKey;
+package CairnRPG;
 
 public class Hero extends Character {
     private int level;
@@ -12,9 +12,8 @@ public class Hero extends Character {
         isAlive = true;
     }
     //Constructor
-    public Hero( String name, double health, double attackPower, boolean isAlive) {
-        super(name, health,attackPower,isAlive);
-        this.name = "Link";
+    public Hero(double health, double attackPower, boolean isAlive) {
+        super("Link", health,attackPower,isAlive);
 
     }
     //Methods

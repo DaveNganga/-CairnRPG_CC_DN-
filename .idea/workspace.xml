@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/CharacterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/WorldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/WorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/WorldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPGrunnerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/RPGrunnerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +59,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WorldTest">
+  <component name="RunManager" selected="Application.RPGrunnerV2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="CairnRPG.Main" />
+      <module name="-CairnRPG_CC_DN-" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPGrunnerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CairnRPG.RPGrunnerV2" />
       <module name="-CairnRPG_CC_DN-" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,16 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.itemTestSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="-CairnRPG_CC_DN-" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="itemTestSetters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="-CairnRPG_CC_DN-" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RPGrunnerV2" />
         <item itemvalue="JUnit.WorldTest" />
         <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ItemTest.itemTest1" />
-        <item itemvalue="JUnit.ItemTest.itemTestSetters" />
       </list>
     </recent_temporary>
   </component>

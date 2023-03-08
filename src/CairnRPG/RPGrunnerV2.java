@@ -1,5 +1,7 @@
 package CairnRPG;
 
+import CairnRPG.*;
+
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
@@ -31,7 +33,7 @@ public class RPGrunnerV2 {
 
         //Gameplay loop
         while (isPlaying) {
-            //Main Menu
+            //CairnRPG.Main Menu
             System.out.println("\nWhat would you like to do? (type the number below for which " +
                     "option you would like, and then hit the ENTER key)\n");
             System.out.println("--------------------------");
@@ -119,7 +121,7 @@ public class RPGrunnerV2 {
                         "option you would like, and then hit the ENTER key)\n");
                 System.out.println("--------------------------");
                 System.out.println("=====1. Attack!");
-                System.out.println("=====2. Use Healing Item");
+                System.out.println("=====2. Use Healing CairnRPG.Item");
                 System.out.println("=====3. Attempt to Run Away");
                 System.out.println("--------------------------");
 
@@ -131,7 +133,7 @@ public class RPGrunnerV2 {
                         h.fight(e);
                         break;
                     case 2:
-                        //Healing Item
+                        //Healing CairnRPG.Item
                         System.out.println("**** Used a healing item **** [This feature has not been implemented yet.]");
                         break;
                     case 3:

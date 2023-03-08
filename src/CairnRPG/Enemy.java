@@ -1,3 +1,5 @@
+package CairnRPG;
+
 public class Enemy extends Character {
     private int magicPoints;
 
@@ -10,7 +12,6 @@ public class Enemy extends Character {
     //Constructor
     public Enemy(String name, double health, double attackPower, boolean isAlive) {
         super(name,health,attackPower,isAlive);
-        this.name = "Dangerous Dave";
 
     }
     //Methods

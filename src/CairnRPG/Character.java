@@ -1,3 +1,5 @@
+package CairnRPG;
+
 public class Character {
     public String name;
     public double health;
