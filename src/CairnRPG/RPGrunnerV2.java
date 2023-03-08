@@ -1,7 +1,5 @@
 package CairnRPG;
 
-import CairnRPG.*;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
@@ -173,7 +171,7 @@ public class RPGrunnerV2 {
         h.setHealth(h.getHealth() + 100);
         System.out.println("Time passes while you rest to heal...");
 
-        String restS = "";2
+        String restS = "";
         for (int i = 0; i < 30; i++) {
             TimeUnit.MILLISECONDS.sleep(250);
             restS += "*";
