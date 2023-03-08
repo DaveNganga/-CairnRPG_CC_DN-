@@ -56,10 +56,19 @@ public class Character {
         return "Name: " + name + "\nHealth: " + health + "\nAttack Power:" + attackPower + "\nIs Alive" + isAlive;
     }
 
-    public boolean runAway(){
-        System.out.println("TBD");
-        return false;
+    public boolean runAway() {
+        double probability = Math.random();
+        double successRate = 0.51;
+        if (probability > successRate) {
+            System.out.println("The character successfully runs away!");
+            return true;
+        } else {
+            System.out.println("The character fails to run away.");
+            return false;
+        }
     }
 
 }
+
+
 
