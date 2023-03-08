@@ -33,7 +33,7 @@ public class Character {
         return health;
     }
 
-    public void setHealth(float health) {
+    public void setHealth(double health) {
         this.health = health;
     }
 

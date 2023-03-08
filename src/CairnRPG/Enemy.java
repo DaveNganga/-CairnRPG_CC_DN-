@@ -9,9 +9,13 @@ public class Enemy extends Character {
         isAlive = true;
         name = "Dangerous Dave";
     }
-    //Constructor
+    //Constructors
     public Enemy(String name, double health, double attackPower, boolean isAlive) {
         super(name,health,attackPower,isAlive);
+
+    }
+    public Enemy(double health, double attackPower, boolean isAlive) {
+        super("Big Bad Wolf",health,attackPower,isAlive);
 
     }
     //Methods
