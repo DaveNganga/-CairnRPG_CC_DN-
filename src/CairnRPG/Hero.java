@@ -8,7 +8,7 @@ public class Hero extends Character {
     private float money;
     private Item[] inventory = new Item[5];
 
-    Hero(){
+    public Hero(){
         health = 100;
         attackPower = 50;
         isAlive = true;

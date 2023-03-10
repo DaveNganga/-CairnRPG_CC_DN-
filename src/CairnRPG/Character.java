@@ -6,7 +6,7 @@ public class Character {
     public double attackPower;
     public boolean isAlive;
 
-    Character(){
+    public Character(){
         name = "Professor Petcaugh";
         health = 100;
         attackPower = 50;

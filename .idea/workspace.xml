@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="Merge branch 'main' into character-branch-cc">
       <changelist_data name="DaveNganga" email="44644848+davenganga@users.noreply.github.com" />
-      <change afterPath="$PROJECT_DIR$/Test/BossTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/HeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CairnRPG/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CairnRPG/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/BossTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/BossTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CairnRPG/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BossTest">
+  <component name="RunManager" selected="JUnit.HeroTest">
     <configuration name="RPGrunnerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CairnRPG.RPGrunnerV2" />
       <module name="-CairnRPG_CC_DN-" />
@@ -91,10 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="-CairnRPG_CC_DN-" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
+      <option name="MAIN_CLASS_NAME" value="HeroTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeroTest" />
         <item itemvalue="JUnit.BossTest" />
         <item itemvalue="Application.RPGrunnerV3" />
         <item itemvalue="Application.RPGrunnerV2" />
         <item itemvalue="JUnit.WorldTest" />
-        <item itemvalue="JUnit.ItemTest" />
       </list>
     </recent_temporary>
   </component>

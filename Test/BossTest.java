@@ -1,5 +1,4 @@
 import CairnRPG.Boss;
-import CairnRPG.Character;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
