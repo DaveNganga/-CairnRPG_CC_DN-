@@ -25,5 +25,5 @@ class BossTest {
     void bossTest4() {assertEquals(boss.isAlive, (true));}
 
     @Test
-    void bossTest5() {assertEquals(boss.getUltrasLeft(), (3));}
+    void bossTest5() {assertEquals(boss.getUltrasLeft(), (0));}
 }

@@ -5,7 +5,7 @@ import java.util.Random;
 public class Enemy extends Character {
     private int magicPoints;
 
-    Enemy(){
+    public Enemy(){
         health = 100;
         attackPower = 50;
         isAlive = true;
