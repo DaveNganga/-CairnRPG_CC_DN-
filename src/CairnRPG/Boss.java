@@ -3,7 +3,7 @@ package CairnRPG;
 public class Boss extends Enemy{
     private int ultrasLeft;
 
-    Boss(){
+    public Boss(){
         name = "generic Boss";
         health = 200;
         attackPower = 75;

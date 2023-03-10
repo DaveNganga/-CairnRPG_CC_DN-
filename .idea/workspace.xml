@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7d84a60-437f-446c-abdb-95d89f97dd44" name="Changes" comment="">
+    <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="Merge branch 'main' into character-branch-cc">
+      <changelist_data name="DaveNganga" email="44644848+davenganga@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/Test/BossTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CairnRPG/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Boss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CairnRPG/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Character.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,18 +48,20 @@
  Updated upstream
 }</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="CairnRPG" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RPGrunnerV3">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CairnRPG.Main" />
-      <module name="-CairnRPG_CC_DN-" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BossTest">
     <configuration name="RPGrunnerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CairnRPG.RPGrunnerV2" />
       <module name="-CairnRPG_CC_DN-" />
@@ -68,10 +74,19 @@
       <module name="-CairnRPG_CC_DN-" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CairnRPG.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BossTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="-CairnRPG_CC_DN-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BossTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BossTest" />
         <item itemvalue="Application.RPGrunnerV3" />
         <item itemvalue="Application.RPGrunnerV2" />
         <item itemvalue="JUnit.WorldTest" />
         <item itemvalue="JUnit.ItemTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
