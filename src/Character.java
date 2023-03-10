@@ -60,10 +60,10 @@ public class Character {
         double probability = Math.random();
         double successRate = 0.51;
         if (probability > successRate) {
-            System.out.println("The character successfully runs away!");
+            System.out.println("Link successfully runs away!");
             return true;
         } else {
-            System.out.println("The character fails to run away.");
+            System.out.println("Link fails to run away.");
             return false;
         }
     }
