@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="">
+    <list default="true" id="331a39b5-6362-46fa-9a5c-5e466b351f97" name="Changes" comment="Finished fight method on both Hero and Enemy classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CairnRPG/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CairnRPG/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CairnRPG/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CairnRPG/Hero.java" afterDir="false" />
     </list>
@@ -114,5 +116,9 @@
       <updated>1678132112241</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished fight method on both Hero and Enemy classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished fight method on both Hero and Enemy classes" />
   </component>
 </project>

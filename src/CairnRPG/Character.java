@@ -46,7 +46,9 @@ public class Character {
     }
 
     public boolean isAlive() {
-        return isAlive;
+
+        if(this.health == 0) return false;
+        else return true;
     }
 
     public void setAlive(boolean alive) {
