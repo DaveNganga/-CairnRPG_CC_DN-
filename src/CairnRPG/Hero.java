@@ -1,5 +1,7 @@
 package CairnRPG;
 
+import java.util.Random;
+
 public class Hero extends Character {
     private int level;
     private int experience;
@@ -20,9 +22,25 @@ public class Hero extends Character {
     public String info() {
         return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive" + isAlive + "Money: " + this.money + "\nExperience: " + this.experience + "\nLevel: " + level + "\nnumber of items in inventory: " + inventory.length;
     }
-    public boolean fight(Enemy enemy){
-        System.out.println("You are fightin" + enemy.name);
-        return false;
+    public boolean fight(Enemy Enemy){
+        if (Enemy.isAlive){
+            Random rand = new Random();
+            int upperBound = 10;
+            int int_random = rand.nextInt(upperBound);
+            if(int_random == upperBound - 3){
+                System.out.println("That was a critical hit!");
+                Enemy.setHealth(Enemy.getHealth()-attackPower*2);
+                System.out.println("- "+ attackPower*2 +" health points");
+            } else {
+                Enemy.setHealth(Enemy.getHealth()-attackPower);
+                System.out.println("- "+ attackPower*2 +" health points");
+            }
+            return true;
+        }
+        else {
+            System.out.println(Enemy.getName() + " is dead.");
+            return false;
+        }
     }
     public void levelUp(){
         this.level += 1;

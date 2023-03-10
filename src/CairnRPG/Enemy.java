@@ -1,5 +1,7 @@
 package CairnRPG;
 
+import java.util.Random;
+
 public class Enemy extends Character {
     private int magicPoints;
 
@@ -23,8 +25,24 @@ public class Enemy extends Character {
         return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive:" + isAlive + "\nMagic Points:" + magicPoints;
     }
     public boolean fight(Hero Hero){
-        System.out.println("You are fighting" + Hero.getName());
-        return false;
+        if (Hero.isAlive){
+            Random rand = new Random();
+            int upperBound = 10;
+            int int_random = rand.nextInt(upperBound);
+            if(int_random == upperBound - 3){
+                System.out.println("That was a critical hit!");
+                Hero.setHealth(Hero.getHealth()-attackPower*2);
+                System.out.println("- "+ attackPower*2 +" health points");
+            } else {
+                Hero.setHealth(Hero.getHealth()-attackPower);
+                System.out.println("- "+ attackPower*2 +" health points");
+            }
+            return true;
+        }
+        else {
+            System.out.println(Hero.getName() + " is dead.");
+            return false;
+        }
     }
 
     public int getMagicPoints() {
