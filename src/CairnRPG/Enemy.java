@@ -30,13 +30,16 @@ public class Enemy extends Character {
             int upperBound = 10;
             int int_random = rand.nextInt(upperBound);
             if(int_random == upperBound - 3){
+                System.out.println("You just attacked: " + Hero.getName());
                 System.out.println("That was a critical hit!");
                 Hero.setHealth(Hero.getHealth()-attackPower*2);
                 System.out.println("- "+ attackPower*2 +" health points");
             } else {
+                System.out.println("You just attacked: " + Hero.getName());
                 Hero.setHealth(Hero.getHealth()-attackPower);
-                System.out.println("- "+ attackPower*2 +" health points");
+                System.out.println("- "+ attackPower +" health points");
             }
+            System.out.println(Hero.info());
             return true;
         }
         else {

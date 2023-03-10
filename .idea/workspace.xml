@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f330dcd1-e241-4c04-bd15-743d78975ea1" name="Changes" comment="">
+    <list default="true" id="c7d84a60-437f-446c-abdb-95d89f97dd44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,5 +113,9 @@
       <updated>1678132112241</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished fight method on both Hero and Enemy classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished fight method on both Hero and Enemy classes" />
   </component>
 </project>
