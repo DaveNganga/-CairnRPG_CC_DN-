@@ -34,6 +34,6 @@ public class Item {
 
     //method
     public String info() {
-        return "CairnRPG.Item: " + name + "\nHealing Power: " + healingPower;
+        return "Item: " + name + "\nHealing Power: " + healingPower;
     }
 }

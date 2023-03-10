@@ -18,7 +18,7 @@ public class Hero extends Character {
     }
     //Methods
     public String info() {
-        return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive" + isAlive + "Money: " + this.money + "\nExperience: " + this.experience + "\nLevel:" + level + "\ninventory:" + inventory.toString();
+        return "Name: " + this.name + "\nHealth: " + this.health + "\nAttack Power:" + attackPower + "\nIs Alive" + isAlive + "Money: " + this.money + "\nExperience: " + this.experience + "\nLevel: " + level + "\nnumber of items in inventory: " + inventory.length;
     }
     public boolean fight(Enemy enemy){
         System.out.println("You are fightin" + enemy.name);
