@@ -61,8 +61,16 @@ public class Character {
     }
 
     public boolean runAway(){
-        System.out.println("TBD");
-        return false;
+            double probability = Math.random();
+            double successRate = 0.51;
+            if (probability > successRate) {
+                System.out.println("Link successfully runs away!");
+                return true;
+            } else {
+                System.out.println("Link fails to run away.");
+                return false;
+            }
+        }
     }
 
 }
